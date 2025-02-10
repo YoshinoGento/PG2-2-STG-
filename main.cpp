@@ -208,7 +208,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		if (scene == TITLE) {
 			Novice::ScreenPrintf(0, 0, "scene:TITLE\n");
-			Novice::ScreenPrintf(0, 20, "SPACE\n");
+			Novice::ScreenPrintf(0, 20, "1\n");
 		}
 
 		if (scene == GAME) {
@@ -231,12 +231,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		}
 		if (scene == GAMEOVER) {
 			Novice::ScreenPrintf(0, 0, "scene:GAMEOVER\n");
-			Novice::ScreenPrintf(0, 20, "SPACE\n");
+			Novice::ScreenPrintf(0, 20, "1\n");
 		}
 
 		if (scene == CLEAR) {
 			Novice::ScreenPrintf(0, 0, "scene:CLEAR\n");
-			Novice::ScreenPrintf(0, 20, "SPACE\n");
+			Novice::ScreenPrintf(0, 20, "1\n");
 		}
 		///
 		/// ↑描画処理ここまで
